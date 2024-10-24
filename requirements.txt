@@ -4,3 +4,4 @@ numpy
 matplotlib
 protobuf==3.20.3
 setuptools
+altair==4.2.0
