@@ -12,6 +12,9 @@ from PIL import Image
 import json
 import requests
 from io import BytesIO
+import os
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
 
 fhand=pd.read_csv("https://raw.githubusercontent.com/Rizqya3121/Tubes/main/produksi_minyak_mentah.csv")
 
